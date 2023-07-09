@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 from itertools import cycle
 from myserver import server_on
 
-TOKEN = "MTEyNTA0NDY2NDg1NzI3MjMzMQ.GhxZNW.6pJL-OZyKZcrZ8TtHz2InjMqvQVZvCAGxYrdVE" # Replace with your bot token
+TOKEN = "TOKEN" # Replace with your bot token
 
 bot = commands.Bot(command_prefix='ce!', intents=discord.Intents.all())
 status_list = cycle([
