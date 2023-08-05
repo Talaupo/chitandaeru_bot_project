@@ -6,7 +6,7 @@ import requests
 
 TOKEN = "TOKEN"  # Replace with your bot token
 
-bot = commands.Bot(command_prefix='c!', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 aliases = ["kontol", "anjing", "ajg", "bajingan", "babi", "goblok", "tolol", "bodoh", "bebal", "memek", "ngentot"]
 
